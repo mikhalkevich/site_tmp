@@ -1,0 +1,50 @@
+body {
+	padding:0;
+	margin:0;
+	background:url('../img/fon_body.jpg');
+}
+#header {
+	background:url('../img/fon.jpg');
+	height:253px;
+}
+#logotext {
+	float:right;
+	margin:10px;
+	padding-top:120px;
+	text-shadow:1px 1px 1px black;
+	color:white;
+}
+#logo {
+	float:left;
+}
+#nav {
+	display:flex;
+}
+#nav a {
+	flex:1;
+	text-align:center;
+	background:#9eb565;
+	color:#fff;
+	font-weight:bold;
+	font-size:25px;
+	padding:20px 0;
+	border-right:#1e2422 solid 1px;
+	text-decoration:none;
+}
+#nav a:hover {
+	background:white;
+	color:#1e2422;
+}
+.my-cont {
+	margin-top:40px;
+	background:#fff;
+	padding:5px;
+	border-radius:6px;
+	box-shadow:1px 1px 1px black;
+}
+#footer {
+	text-align:center;
+	padding:10px;
+	margin:50px 0;
+}
+
